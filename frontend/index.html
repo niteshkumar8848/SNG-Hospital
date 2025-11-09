@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SNG Hospital — Care with Trust</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="brand">SNG <span class="accent">Hospital</span></div>
+    <nav class="nav">
+      <a href="#features">Services</a>
+      <a href="#doctors">Doctors</a>
+      <a href="#contact">Contact</a>
+      <a class="btn" href="/login.jsp">Admin</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Compassion. Excellence. Innovation.</h1>
+        <p>Comprehensive care, advanced facilities, and a patient-first approach.</p>
+        <div class="hero-actions">
+          <button id="bookBtn" class="primary">Book Appointment</button>
+          <button id="callBtn" class="secondary">Call Now</button>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="card form-card">
+          <h3>Quick Appointment</h3>
+          <form id="appointmentForm">
+            <div class="row"><input name="name" placeholder="Full name" required></div>
+            <div class="row"><input name="phone" placeholder="Phone" required></div>
+            <div class="row">
+              <select name="department" required>
+                <option value="">Select Department</option>
+                <option>General</option>
+                <option>Cardiology</option>
+                <option>Orthopedics</option>
+              </select>
+            </div>
+            <div class="row">
+              <button type="submit" class="primary full">Request</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="grid three">
+      <article class="feature">
+        <h4>24/7 Emergency</h4>
+        <p>Rapid response and critical care team on standby.</p>
+      </article>
+      <article class="feature">
+        <h4>Trusted Specialists</h4>
+        <p>Experienced consultants across all major specialties.</p>
+      </article>
+      <article class="feature">
+        <h4>Modern Labs</h4>
+        <p>State-of-the-art diagnostic & imaging facilities.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>© 2025 SNG Hospital. All Rights Reserved.</p>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
