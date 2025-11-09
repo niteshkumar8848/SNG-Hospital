@@ -127,5 +127,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Contact
 
 Nitesh Kumar - [@niteshkumar8848](https://github.com/niteshkumar8848)
+Gobinda Bhattarai - [@bhattaraicontact-cmd](https://github.com/bhattaraicontact-cmd)
 
 Project Link: [https://github.com/niteshkumar8848/SNG-Hospital](https://github.com/niteshkumar8848/SNG-Hospital)
